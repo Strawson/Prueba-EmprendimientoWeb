@@ -1,0 +1,12 @@
+button {
+    background-color: $color-primary;
+    &:hover{
+        background-color: $color-background;
+    }
+}
+input{
+    background-color: $color-background;
+    &:focus{
+        background-color: $color-primary;
+    }
+}
